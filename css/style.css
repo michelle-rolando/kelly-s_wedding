@@ -298,6 +298,17 @@ body{
   padding: 7px 30px;
   margin: 15px 0 0;
 }
+
+.bandera-alemania{
+  display: block;
+  width: 34px;
+  height: 16px;
+}
+
+.bandera-alemania img{
+  width: 100%;
+}
+
 /*
 
 .titulo{
