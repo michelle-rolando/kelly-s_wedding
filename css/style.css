@@ -242,15 +242,27 @@ body{
 
 .home-section{
   min-height: 100vh;
-  background-color: gray;
+  position: relative;
+
 
 }
 
 .home-section .slide{
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: absolute;
   z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.home-section .slide.active{
+  opacity: 1;
+  visibility: visible;
 }
 
 .home-section .slide::before{
@@ -281,12 +293,33 @@ body{
   margin: 0 0 15px;
 }
 
+.home-section .slide.active .home-content p{
+  opacity: 0;
+  animation: fadeInTop 1s ease forwards;
+}
+
+@keyframes fadeInTop{
+  0%{
+    transform: translateY(-50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .home-section .home-content h1{
   font-size: 80px;
   color: #ffffff;
   margin: 0;
   font-weight: normal;
   font-family: 'Great Vibes', cursive;
+}
+
+.home-section .slide.active .home-content h1{
+  opacity: 0;
+  animation: fadeInTop 1s ease forwards;
+  animation-delay: 0.5s;
 }
 
 .home-section .home-content span{
@@ -297,6 +330,12 @@ body{
   color: #ffffff;
   padding: 7px 30px;
   margin: 15px 0 0;
+}
+
+.home-section .slide.active .home-content span{
+  opacity: 0;
+  animation: fadeInTop 1s ease forwards;
+  animation-delay: 1s;
 }
 
 .bandera-alemania{
