@@ -4,8 +4,8 @@ $(window).on("load", function(){
     const slideLen = $(".slide").length;
     
     function slideShow(){
-        console.log(slideIndex)
-        if(slideIndex = slideLen-1){
+        $(".slide").removeClass("active").eq(slideIndex).addClass("active");
+        if(slideIndex == slideLen-1){
             slideIndex = 0;
         }
         else{
@@ -14,4 +14,4 @@ $(window).on("load", function(){
         setTimeout(slideShow, 5000);
     }
     slideShow();
-} )
+})
