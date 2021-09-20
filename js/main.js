@@ -15,3 +15,16 @@ $(window).on("load", function(){
     }
     slideShow();
 })
+
+$(document).ready(function(){
+
+    //fixed header
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $(".header").addClass("fixed");
+        }
+        else{
+            $(".header").removeClass("fixed");
+        }
+    })
+})

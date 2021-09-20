@@ -127,9 +127,6 @@ table {
 /*END OF RESET*/
 
 /*FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
-
 
 
 * {
@@ -142,7 +139,7 @@ table {
 }
 
 *:not(i){
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 a{
@@ -201,12 +198,17 @@ footer{
 
 /* Header */
 .header{
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 99;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease;
+}
+.header .fixed{
+  background-color: #ffffff;
+  box-shadow: 0 0 8px #cccccc;
 }
 
 .header .logo{
@@ -220,6 +222,10 @@ footer{
   font-family: 'Great Vibes', cursive;
   letter-spacing: 4.5px;
   text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+.header.fixed .logo a{
+  color: #000000;
 }
 
 .header .nav{
@@ -247,6 +253,9 @@ footer{
   transition:color 0.5s ease;
 }
 
+.header.fixed .nav ul li a{
+  color: #555555;
+}
 
 body{
   margin: 0;
@@ -260,8 +269,6 @@ body{
 .home-section{
   min-height: 100vh;
   position: relative;
-
-
 }
 
 .home-section .slide{
@@ -308,14 +315,16 @@ body{
 .home-section .home-content p{
   font-size: 24px;
   color: #ffffff;
-  margin: 0 0 15px;
+  margin: 24px 0 24px;
+  padding-top: 16px;
 }
 
 .home-section .home-content .p-home{
-  font-size: 16px;
+  font-size: 24px;
   color: #ffffff;
-  margin: 0 0 15px;
-  margin-top: 25px;
+  margin: 0 0;
+  margin-top: 30px;
+  margin-bottom: 24px;
 }
 
 .home-section .slide.active .home-content p{
@@ -339,6 +348,7 @@ body{
   margin: 0;
   font-weight: normal;
   font-family: 'Great Vibes', cursive;
+  margin-bottom: 24px;
 }
 
 .home-section .slide.active .home-content h1{
@@ -348,13 +358,16 @@ body{
 }
 
 .home-section .home-content span{
-  font-size: 20px;
+  font-size: 24px;
   display: inline-block;
   border: 1px solid #ffffff;
   border-radius: 30px;
   color: #ffffff;
   padding: 7px 30px;
   margin: 15px 0 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
 
 .home-section .slide.active .home-content span{
@@ -374,6 +387,7 @@ body{
   padding: 0 60px;
   text-align: center;
   position: relative;
+  background-color: #FFFEF2;
 }
 .couple-section .couple:nth-child(2)::before{
   content: '';
@@ -382,13 +396,13 @@ body{
   top: 0;
   width: 1px;
   height: 100%;
-  background-color: #cccccc;
+  background-color: #FFFEF2;
 }
 .couple-section .couple i.fa-heart{
   position: absolute;
   left: -15px;
   width: 31px;
-  background-color: #f3f2f1;
+  background-color: #FFFEF2;
   padding: 5px;
   text-align: center;
   font-size: 18px;
@@ -397,9 +411,9 @@ body{
 .couple-section .couple img{
   max-width: 280px;
   width: 100%;
-  border-radius: 50%; 
+  border-radius: 40%; 
   border: 10px solid transparent;
-  filter: saturate(160%);
+  filter: brightness(80%);
 }
 .couple-section .couple h3{
   font-size: 40px;
@@ -411,7 +425,7 @@ body{
 .couple-section .couple p{
   font-size: 16px;
   line-height: 26px;
-  color: #555555;
+  color: #455a64;
   margin: 0;
 }
 .couple-section .social-links{
@@ -432,8 +446,50 @@ body{
   transition: all 0.5s ease;
 }
 .couple-section .social-links a:hover i{
-  color: #f3f2f1; 
+  color: #FFFEF2; 
 }
+
+/* Arrive section */
+.arrive-section{
+  padding: 50px 0 80px;
+}
+
+.arrive-section p{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 150%;
+  color: #555555;
+  margin: auto;
+  padding: 0 16px 24px;
+}
+
+.arrive-section dl dt{
+  font-size: 28px;
+  margin: 15px 16px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.arrive-section dl dt dd{
+  margin: 16px 24px 16px 24px;
+}
+
+/* Lodging Section*/
+.lodging-section,
+.marriage-section,
+.celebration-section,
+.tourism-section,{
+  padding: 50px 0 80px;
+}
+
+/* .lodging-section .lodging-options ul li{
+  list-style-image: url(/kelly-s_wedding/img/assets/forma-de-flor.svg);
+}  */
+
+
+
+
 
 .bandera-alemania{
   display: block;
