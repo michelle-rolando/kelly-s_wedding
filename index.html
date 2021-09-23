@@ -32,13 +32,13 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="#" class="active">Inicio</a></li>
-                        <li><a href="#">La Pareja</a></li>
-                        <li><a href="#">¿Cómo llegar?</a></li>
-                        <li><a href="#">Alojamiento</a></li>
-                        <li><a href="#">Programación</a></li>
-                        <li><a href="#">Lista de novios</a></li>
-                        <li><a href="#">+Info</a></li>
+                        <li><a href="#home" class="active">Inicio</a></li>
+                        <li><a href="#couple">La Pareja</a></li>
+                        <li><a href="#arrival">¿Cómo llegar?</a></li>
+                        <li><a href="#lodging">Alojamiento</a></li>
+                        <li><a href="#marriage">Programación</a></li>
+                        <li><a href="#list">Lista de novios</a></li>
+                        <li><a href="#info">+Info</a></li>
                         <!-- <li><a href="#">RSVP</a></li> -->
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
     <!-- HEADER -->
     
     <!-- HOME -->
-    <section class="home-section">
+    <section id="home" class="home-section">
         <!-- slide start -->
         <div class="slide active" style="background-image: url('img/slides/slide-1.jpg');">
             <div class="container">
@@ -85,7 +85,7 @@
     <!-- HOME END -->
 
     <!-- Couple section start -->
-    <section class="couple-section">
+    <section id="couple" class="couple-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -110,7 +110,7 @@
     <!-- Couple section end -->
 
     <!-- Arrival section start -->
-    <section class="arrive-section">
+    <section id="arrival" class="arrive-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -143,7 +143,7 @@
 
 
     <!-- Lodging section start -->
-    <section class="lodging-section">
+    <section id="lodging" class="lodging-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -153,6 +153,7 @@
                 <div class="lodging-options">
                     <p>
                         En la página web <a href="https://www.messkirch.de/Tourismus/Gaesteservice/uebernachten#/unterkuenfte">Tourismusinformation Messkirch</a>, encontrarás diversas opciones de departamentos y habitaciones en hoteles y hospedajes. A continuación, los más destacados:
+                    </p>
                         <ul class="lodging-ul">
                             <li> <a href="http://www.booking.com/Share-uhhLnB">Klosterherberge</a></li>
                             <li> <a href="http://www.booking.com/Share-lsgbtr9">Klosterherberge Economy</a></li>
@@ -162,7 +163,6 @@
                             <li> <a href="https://www.airbnb.de/rooms/32947798?check_in=2021-10-30&check_out=2021-10-31&guests=1&adults=2&s=67&unique_share_id=b5606f9e-d738-4c8a-b30a-7f0a67a2e899">Ferienwohnung in Messkirch</a></li>
                             <li> En <a href="https://www.airbnb.de/s/Messkirch--Germany/homes?adults=2&checkin=2021-10-30&checkout=2021-10-31&tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_dates%5B%5D=october&flexible_trip_dates%5B%5D=september&flexible_trip_lengths%5B%5D=weekend_trip&date_picker_type=calendar&ne_lat=48.09494600674137&ne_lng=9.317195057911277&sw_lat=47.84854365311149&sw_lng=8.975524544758201&zoom=11&search_by_map=true&search_type=user_map_move&place_id=ChIJFabh7GFqmkcRdiXxQ_myGmo">AirBnB</a> encontraras más departamentos y habitaciones en alquiler.</li>
                         </ul>
-                    </p>
                 </div>
             </div>
         </div>
@@ -170,15 +170,43 @@
     <!-- Lodging section end -->
 
     <!-- Civil Marriage section start -->
-    <section class="marriage-section">
+    <section id="marriage" class="marriage-section">
         <div class="container">
             <div class="row">
+                <img class="castle" src="/kelly-s_wedding/img/assets/castillo-messkirch.jpg" alt="castillo Messkirch">
                 <div class="section-title">
-                <img src="/kelly-s_wedding/img/assets/castillo-messkirch.jpg" alt="castillo Messkirch">
                 <h2>Programación</h2>
                 </div>
                 <div>
-                    <ul>
+                    <table>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Actividad</th>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>Matrimonio civil en la Municipalidad de Messkirch
+                                (solo familiares y testigos por restricciones sanitarias)</td>
+                        </tr>
+                        <tr>
+                            <td>14:30</td>
+                            <td>Encuentro en la plaza Marktplatz (si el clima lo permite)</td>
+                        </tr>
+                        <tr>
+                            <td>15:30</td>
+                            <td>Brindis en el jardin interior del castillo Messkirch
+                                seguido del tipico Kaffee & Kuchen alemán</td>
+                        </tr>
+                        <tr>
+                            <td>~18:30</td>
+                            <td>Cena</td>
+                        </tr>
+                        <tr>
+                            <td>~21:00</td>
+                            <td>Fiesta</td>
+                        </tr>         
+                    </table>
+                    <!-- <ul>
                         <li>14:00 horas
                             <ul>
                                 <li>Matrimonio civil en la Municipalidad de Messkirch
@@ -190,16 +218,16 @@
                             seguido del tipico Kaffee & Kuchen alemán</li>
                         <li>~18:30			Cena</li>
                         <li>~21:00 horas		Fiesta</li>            
-                    </ul>
-                    <img src="/kelly-s_wedding/img/assets/salon.jpg" alt="Salon de celebración">
+                    </ul> -->
                 </div>
+                <img src="/kelly-s_wedding/img/assets/salon.jpg" alt="Salon de celebración">
             </div>
         </div>
     </section>
     <!-- Civil Marriage section end -->
 
     <!-- lista start-->
-          <section class="lista-section">
+          <section id="list" class="lista-section">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -215,7 +243,7 @@
 
 
     <!-- information section start -->
-    <section class="information-section">
+    <section id="info" class="information-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -225,13 +253,12 @@
                 <!-- <p>Fur weitere Nachfragen kannst du uns unter kelly.benjamin2021@gmail.com kontaktieren </p> -->
                 <p>Tendremos disponible una sala de juego al lado del salón principal para que sus niños puedan jugar y descansar mientras ustedes disfrutan con nosotros nuestro gran día.</p>
                 <!-- <p>Für die Kleinen haben wir neben an einen Spielraum zum vergnügen oder entspannen, damit ihr mit uns ausgelassen feiern könnt.</p> -->
-                <p>Agradeceremos la confirmación de asistencia a: <a href="mailto: kelly.benjamin2021@gmail.com">kelly.benjamin2021@gmail.com</a></p>
+                <p>Agradeceremos la confirmación de asistencia a: <a href="mailto: kelly.benjamin2021@gmail.com">kelly.benjamin2021@gmail.com</a></p> 
                 <!-- <p>Für deine Teilnahmebestätigung sind wir dir sehr dankbar: kelly.benjamin2021@gmail.com</p> -->
-                <p>Dresscode:
+                <p class="separate-text">Dresscode: 
                     <img src="" alt="">    
                     <img src="" alt="">
                 </p>
-
             </div>
         </div>
     </section>

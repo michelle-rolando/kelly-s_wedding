@@ -32,13 +32,13 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="#" class="active">Startseite</a></li>
-                        <li><a href="#">Das Brautpaar</a></li>
-                        <li><a href="#">Anfahrt</a></li>
-                        <li><a href="#">Unterkunft</a></li>
-                        <li><a href="#">Programm</a></li>
-                        <li><a href="#">Hochzeitstisch</a></li>
-                        <li><a href="#">+Info</a></li>
+                        <li><a href="#home" class="active">Startseite</a></li>
+                        <li><a href="#couple">Das Brautpaar</a></li>
+                        <li><a href="#arrival">Anfahrt</a></li>
+                        <li><a href="#lodging">Unterkunft</a></li>
+                        <li><a href="#marriage">Programm</a></li>
+                        <li><a href="#list">Hochzeitstisch</a></li>
+                        <li><a href="#info">+Info</a></li>
                         <!-- <li><a href="#">RSVP</a></li> -->
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
     <!-- HEADER -->
     
     <!-- HOME -->
-    <section class="home-section">
+    <section id="home" class="home-section">
         <!-- slide start -->
         <div class="slide active" style="background-image: url('img/slides/slide-1.jpg');">
             <div class="container">
@@ -85,7 +85,7 @@
     <!-- HOME END -->
 
     <!-- Couple section start -->
-    <section class="couple-section">
+    <section id="couple" class="couple-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -110,7 +110,7 @@
     <!-- Couple section end -->
 
     <!-- Arrival section start -->
-    <section class="arrive-section">
+    <section id="arrival" class="arrive-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -128,7 +128,7 @@
                     <dd>Die nächstgelegenen Flughäfen sind Stuttgart, Basel-Mulhouse, Zürich (Schweiz), München oder Friedrichshafen. Von dort könnt ihr ein Zug bis nach Sigmaringen, Tuttlingen, Stockach oder Mengen nehmen.</dd>
                     <br>
                     <dt>Per Zug</dt>
-                    <dd>Messkirch hat derzeit keinen Bahnhof. Die nächstgelegenen Bahnhöfe sind Sigmaringen, Tuttlingen, Stockach oder Mengen. Bahntickets und Zugverbindungen kannst du unter <a href="https://www.bahn.de/">https://www.bahn.de/</a> kaufen. Es existiert jedoch ein <a href="https://www.naldo.de/uploads/tx_prospektservice/regiobus600-broschuere2020.pdf" target="_blank" rel="noopener noreferrer">Bus</a> (Regio Bus 600), der stündlich von Sigmaringen nach Messkirch fährt. Wir können dich auch von einem dieser Bahnhöfe abholen. Gebt uns daher bitte rechtzeitig Bescheid damit wir das einplanen können.</dd>
+                    <dd>Messkirch hat derzeit keinen Bahnhof. Die nächstgelegenen Bahnhöfe sind Sigmaringen, Tuttlingen, Stockach oder Mengen. Bahntickets und Zugverbindungen kannst du unter <a href="https://www.bahn.de/">bahn.de</a> kaufen. Es existiert jedoch ein <a href="https://www.naldo.de/uploads/tx_prospektservice/regiobus600-broschuere2020.pdf" target="_blank" rel="noopener noreferrer">Bus</a> (Regio Bus 600), der stündlich von Sigmaringen nach Messkirch fährt. Wir können dich auch von einem dieser Bahnhöfe abholen. Gebt uns daher bitte rechtzeitig Bescheid damit wir das einplanen können.</dd>
                     <br>
                     <dt>Mit dem Auto</dt>
                     <dd>Messkirch liegt direkt an der B311 und B313. Schaut auf Google Maps und plant deine Route.</dd>
@@ -141,10 +141,12 @@
 
 
     <!-- Lodging section start -->
-    <section class="lodging-section">
+    <section id="lodging" class="lodging-section">
         <div class="container">
             <div class="row">
-                <h2>Übernachten</h2>
+                <div class="section-title">
+                    <h2>Übernachten</h2>
+                </div>
                 <p>In Messkirch gibt es verschiedene Hotels, Herbergen und Ferienwohnungen. Da die Feier direkt in Messkirch stattfindet empfehlen wir dir direkt in Messkirch zu übernachten.</p>
                 <div class="lodging-options">
                     <p>
@@ -166,37 +168,51 @@
     <!-- Lodging section end -->
 
     <!-- Civil Marriage section start -->
-    <section class="marriage-section">
+    <section id="marriage" class="marriage-section">
         <div class="container">
             <div class="row">
                 <img src="/kelly-s_wedding/img/assets/castillo-messkirch.jpg" alt="castillo Messkirch">
-                <h2>Programm</h2>
-            </div>
-            <div>
-                <ul>
-                    <li>14:00 Uhr       
-                        <ul>
-                            <li>
-                                Standesamtliche Trauung im Rathaus Messkirch
-                                (Nur Familienmitglieder und Trauzeugen wegen COVID-19)
-                            </li>
-                        </ul>
-                    </li>
-                    <li> 14:30 Uhr      Empfang am Marktplatz Messkirch (sofern das Wetter es zulässt)</li>
-                    <li>15:30 Uhr       Sektempfang im Schlossinnenhof – Schloss Messkirch
-                        mit anschließendem Kaffee und Kuchen
-                    </li>
-                    <li>~18:30			Abendessen</li>
-                    <li>~21:00 Uhr      Musik & Tanz</li>            
-                </ul>
-                <img src="/kelly-s_wedding/img/assets/salon.jpg" alt="Salon de celebración">
+                <div class="section-title">
+                    <h2>Programm</h2>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Uhr</th>
+                            <th>Activität</th>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>Standesamtliche Trauung im Rathaus Messkirch
+                                (Nur Familienmitglieder und Trauzeugen wegen COVID-19)</td>
+                        </tr>
+                        <tr>
+                            <td>14:30</td>
+                            <td>Empfang am Marktplatz Messkirch (sofern das Wetter es zulässt)</td>
+                        </tr>
+                        <tr>
+                            <td>15:30</td>
+                            <td>Sektempfang im Schlossinnenhof – Schloss Messkirch
+                                mit anschließendem Kaffee und Kuchen</td>
+                        </tr>
+                        <tr>
+                            <td>~18:30</td>
+                            <td>Abendessen</td>
+                        </tr>
+                        <tr>
+                            <td>~21:00</td>
+                            <td>Musik & Tanz</td>
+                        </tr>         
+                    </table>
+                </div>
+            <img src="/kelly-s_wedding/img/assets/salon.jpg" alt="Salon de celebración">
             </div>
         </div>
     </section>
     <!-- Civil Marriage section end -->
 
     <!-- lista start-->
-    <section class="lista-section">
+    <section id="list" class="lista-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -212,7 +228,7 @@
     <!-- lista end -->
 
     <!-- information section start -->
-    <section class="information-section">
+    <section id="info" class="information-section">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -223,8 +239,8 @@
                 <!-- <p>Tendremos disponible una sala de juego al lado del salón principal para que sus niños puedan jugar y descansar mientras ustedes disfrutan con nosotros nuestro gran día.</p> -->
                 <p>Für die Kleinen haben wir neben an einen Spielraum zum vergnügen oder entspannen, damit ihr mit uns ausgelassen feiern könnt.</p>
                 <!-- <p>Agradeceremos la confirmación de asistencia a: kelly.benjamin2021@gmail.com</p> -->
-                <p>Für deine Teilnahmebestätigung sind wir dir sehr dankbar: <a href="mailto: kelly.benjamin2021@gmail.com">kelly.benjamin2021@gmail.com</a> kontaktieren </p></p>
-                <p>Dresscode:
+                <p>Für deine Teilnahmebestätigung sind wir dir sehr dankbar: <a href="mailto: kelly.benjamin2021@gmail.com">kelly.benjamin2021@gmail.com</a> kontaktieren.</p><br/>
+                <p class="separate-text">Dresscode:
                     <img src="" alt="">    
                     <img src="" alt="">
                 </p>

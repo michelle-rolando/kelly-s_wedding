@@ -389,6 +389,11 @@ body{
   position: relative;
   background-color: #FFFEF2;
 }
+
+.couple-section h2{
+  color: #008F39;
+}
+
 .couple-section .couple:nth-child(2)::before{
   content: '';
   position: absolute;
@@ -449,48 +454,154 @@ body{
   color: #FFFEF2; 
 }
 
+
 /* Arrive section */
 .arrive-section{
   padding: 50px 0 80px;
 }
 
+.arrive-section h2{
+  color: #008F39;
+}
+
 .arrive-section p{
   font-family: 'Playfair Display', serif;
   font-size: 24px;
-  line-height: 150%;
-  color: #555555;
+  line-height: 190%;
+  color: #455a64;
   margin: auto;
   padding: 0 16px 24px;
 }
 
 .arrive-section dl dt{
-  font-size: 28px;
+  font-size: 36px;
   margin: 15px 16px;
   font-family: 'Great Vibes', cursive;
   font-weight: normal;
   letter-spacing: 2px;
+  color: #008F39;
 }
 
-.arrive-section dl dt dd{
-  margin: 16px 24px 16px 24px;
+.arrive-section dl dd{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 190%;
+  color: #455a64;
+  margin: 15px 16px;
 }
 
 /* Lodging Section*/
-.lodging-section,
-.marriage-section,
-.celebration-section,
-.tourism-section,{
+.lodging-section{
   padding: 50px 0 80px;
 }
 
-/* .lodging-section .lodging-options ul li{
-  list-style-image: url(/kelly-s_wedding/img/assets/forma-de-flor.svg);
-}  */
+.lodging-section h2{
+  color: #008F39;
+  margin-top: 32px;
+}
 
+.lodging-section p{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 190%;
+  color: #455a64;
+  margin: auto;
+  padding: 0 16px 24px;
+}
 
+.lodging-section ul{
+  list-style-type: none;
+}
 
+.lodging-section li{
+  color: #455a64;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 36px 0 36px 84px;
+  font-size: 24px;
+  background-image: url(/kelly-s_wedding/img/assets/leaf.svg);
+  background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
 
+/* Civil Marriage section */
+.marriage-section{
+  padding: 50px 0 80px;
+}
 
+.marriage-section h2{
+  color: #008F39;
+  margin-top: 32px;
+}
+
+.marriage-section img{
+  margin: auto;
+  margin-top: 36px;
+}
+
+.marriage-section table{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marriage-section table, th, td {
+  border:1px solid #008F39;
+  text-align: center;
+  color: #455a64;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+.marriage-section th{
+  font-weight: 700;
+  padding: 4px;
+}
+.marriage-section td{
+  padding: 4px;
+  text-align: center;
+}
+
+/* Lista section */
+.lista-section{
+  padding: 50px 0 40px;
+}
+
+.lista-section h2{
+  color: #008F39;
+  margin-top: 32px;
+}
+
+.lista-section p{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 190%;
+  color: #455a64;
+  margin: auto;
+  padding: 0 16px 24px;
+}
+
+/* Information section */
+.information-section{
+  padding: 50px 0 40px;
+}
+
+.information-section h2{
+  color: #008F39;
+  /* margin-top: 32px; */
+}
+
+.information-section p{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 190%;
+  color: #455a64;
+  margin: auto;
+  padding: 0 16px;
+}
+
+/* Flags */
 .bandera-alemania{
   display: block;
   width: 34px;
