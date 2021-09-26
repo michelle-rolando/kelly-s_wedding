@@ -543,9 +543,7 @@ body{
 
 .marriage-section table{
   width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 .marriage-section table, th, td {
   border:1px solid #008F39;
