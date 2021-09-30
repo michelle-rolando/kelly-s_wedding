@@ -164,7 +164,6 @@ section,
 footer{
   display: block;
   width: 100%;
-
 }
 
 .row{
@@ -377,8 +376,13 @@ body{
 }
 
 /*couple section*/
+
 .couple-section{
   padding: 80px 0 80px;
+  /* background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto; */
 }
 
 .couple-section .couple{
@@ -518,12 +522,12 @@ body{
   text-decoration: none;
   font-family: 'Playfair Display', serif;
   margin: 0;
-  padding: 36px 0 36px 84px;
+  padding: 20px 0 20px 32px;
   font-size: 24px;
   background-image: url(/kelly-s_wedding/img/assets/leaf.svg);
   background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 40px;
+	background-size: 24px;
 }
 
 /* Civil Marriage section */
@@ -536,14 +540,17 @@ body{
   margin-top: 32px;
 }
 
-.marriage-section img{
+/* .marriage-section img{
   margin: auto;
   margin-top: 36px;
-}
+} */
 
 .marriage-section table{
   width:100%;
   display: block;
+  margin: auto;
+  padding-left: inherit;
+  padding-right: inherit;
 }
 .marriage-section table, th, td {
   border:1px solid #008F39;
@@ -598,6 +605,11 @@ body{
   margin: auto;
   padding: 0 16px;
 }
+
+.information-section img{
+  margin: auto;
+  margin-top: 36px;
+} 
 
 /* Flags */
 .bandera-alemania{
