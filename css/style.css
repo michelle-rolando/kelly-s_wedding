@@ -380,7 +380,7 @@ body{
 
 .couple-section{
   padding: 80px 0 80px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -465,7 +465,7 @@ body{
 /* Arrive section */
 .arrive-section{
   padding: 50px 0 80px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -504,7 +504,7 @@ body{
 /* Lodging Section*/
 .lodging-section{
   padding: 50px 0 80px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -535,7 +535,7 @@ body{
   margin: 0;
   padding: 20px 0 20px 32px;
   font-size: 24px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf.svg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf.svg);
   background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 24px;
@@ -544,7 +544,7 @@ body{
 /* Civil Marriage section */
 .marriage-section{
   padding: 50px 0 80px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -586,7 +586,7 @@ body{
 /* Lista section */
 .lista-section{
   padding: 50px 0 40px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -609,7 +609,7 @@ body{
 /* Information section */
 .information-section{
   padding: 50px 0 40px;
-  background-image: url(/kelly-s_wedding/img/assets/leaf_background_266278.jpg);
+  background-image: url(../kelly-s_wedding/img/assets/leaf_background_266278.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
