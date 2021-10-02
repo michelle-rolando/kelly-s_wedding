@@ -1,7 +1,7 @@
 .couple-section .social-links a i,
 .couple-section .couple i.fa-heart,
 .couple-section .couple h3,
-.header .nav ul li a.active,
+/* .header .nav ul li a.active, */
 .header .nav ul li a:hover{
     color: #008F39;
 }
