@@ -143,7 +143,9 @@ table {
 }
 
 a{
-  text-decoration: none;
+  text-decoration: underline;
+  color: #00008b;
+  font-weight: 700;
 }
 
 ::before, ::after{
@@ -207,7 +209,7 @@ footer{
   transition: all 0.5s ease;
 }
 .fondoblanco{
-  background-color: #ffffff;
+  background-color: #E5FFEF;
   box-shadow: 0 0 8px #cccccc;
 }
 
@@ -440,6 +442,7 @@ body{
   line-height: 26px;
   color: #455a64;
   margin: 0;
+  text-align: justify;
 }
 .couple-section .social-links{
   padding-top: 30px;
@@ -459,7 +462,7 @@ body{
   transition: all 0.5s ease;
 }
 .couple-section .social-links a:hover i{
-  color: #FFFEF2; 
+  color: transparent; 
 }
 
 
@@ -483,6 +486,7 @@ body{
   color: #455a64;
   margin: auto;
   padding: 0 16px 24px;
+  text-align: justify;
 }
 
 .arrive-section dl dt{
@@ -500,6 +504,7 @@ body{
   line-height: 190%;
   color: #455a64;
   margin: 15px 16px;
+  text-align: justify;
 }
 
 /* Lodging Section*/
@@ -523,6 +528,7 @@ body{
   color: #455a64;
   margin: auto;
   padding: 0 16px 24px;
+  text-align: justify;
 }
 
 .lodging-section ul{
@@ -606,6 +612,7 @@ body{
   color: #455a64;
   margin: auto;
   padding: 0 16px 24px;
+  text-align: justify;
 }
 
 /* Information section */
@@ -629,12 +636,14 @@ body{
   color: #455a64;
   margin: auto;
   padding: 0 16px;
+  text-align: justify;
 }
 .information-section ul{
   list-style-type: none;
 }
 
 .information-section li{
+  text-align: justify;
   line-height: 190%;
   color: #455a64;
   text-decoration: none;
