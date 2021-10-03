@@ -219,7 +219,7 @@ footer{
 
 .header .logo a{
   font-size: 30px;
-  color: #008F39;
+  color: #00471D;
   font-weight: bold;
   font-family: 'Great Vibes', cursive;
   letter-spacing: 4.5px;
@@ -228,7 +228,7 @@ footer{
 }
 .header.fondoblanco .logo a,
 .header.fondoblanco .nav ul li a{
-  color: #008F39;
+  color: #00471D;
 }
 
 .header .nav{
@@ -399,7 +399,7 @@ body{
 }
 
 .couple-section h2{
-  color: #008F39;
+  color: #00471D;
 }
 
 .couple-section .couple:nth-child(2)::before{
@@ -476,7 +476,7 @@ body{
 }
 
 .arrive-section h2{
-  color: #008F39;
+  color: #00471D;
 }
 
 .arrive-section p{
@@ -495,7 +495,7 @@ body{
   font-family: 'Great Vibes', cursive;
   font-weight: normal;
   letter-spacing: 2px;
-  color: #008F39;
+  color: #00471D;
 }
 
 .arrive-section dl dd{
@@ -517,7 +517,7 @@ body{
 }
 
 .lodging-section h2{
-  color: #008F39;
+  color: #00471D;
   margin-top: 32px;
 }
 
@@ -558,7 +558,7 @@ body{
 }
 
 .marriage-section h2{
-  color: #008F39;
+  color: #00471D;
   margin-top: 32px;
 }
 
@@ -576,7 +576,7 @@ body{
   background-color: #CBFFE0;
 }
 .marriage-section table, th, td {
-  border:1px solid #008F39;
+  border:1px solid #00471D;
   text-align: center;
   color: #455a64;
   text-decoration: none;
@@ -601,7 +601,7 @@ body{
 }
 
 .lista-section h2{
-  color: #008F39;
+  color: #00471D;
   margin-top: 32px;
 }
 
@@ -625,7 +625,7 @@ body{
 }
 
 .information-section h2{
-  color: #008F39;
+  color: #00471D;
   /* margin-top: 32px; */
 }
 
