@@ -3,14 +3,14 @@
 .couple-section .couple h3,
 /* .header .nav ul li a.active, */
 .header .nav ul li a:hover{
-    color: #00471D;
+    color: #015925;
 }
 
 .couple-section .social-links a i,
 .couple-section .couple img{
-    border-color: #00471D;
+    border-color: #015925;
 }
 
 .couple-section .social-links a:hover i{
-    background-color: #00471D;
+    background-color: #015925;
 }

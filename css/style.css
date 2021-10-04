@@ -209,7 +209,7 @@ footer{
   transition: all 0.5s ease;
 }
 .fondoblanco{
-  background-color: #E5FFEF;
+  background-color: #FDF4E1;
   box-shadow: 0 0 8px #cccccc;
 }
 
@@ -219,7 +219,7 @@ footer{
 
 .header .logo a{
   font-size: 30px;
-  color: #00471D;
+  color: #015925;
   font-weight: bold;
   font-family: 'Great Vibes', cursive;
   letter-spacing: 4.5px;
@@ -228,7 +228,7 @@ footer{
 }
 .header.fondoblanco .logo a,
 .header.fondoblanco .nav ul li a{
-  color: #00471D;
+  color: #015925;
 }
 
 .header .nav{
@@ -383,7 +383,7 @@ body{
 
 .couple-section{
   padding: 80px 0 0 16px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
@@ -399,7 +399,7 @@ body{
 }
 
 .couple-section h2{
-  color: #00471D;
+  color: #015925;
 }
 
 .couple-section .couple:nth-child(2)::before{
@@ -409,7 +409,7 @@ body{
   top: 0;
   width: 1px;
   height: 100%;
-  background-color: #FFFEF2;
+  background-color: transparent;
 }
 .couple-section .couple i.fa-heart{
   position: absolute;
@@ -430,6 +430,7 @@ body{
   border: 10px solid transparent;
   filter: brightness(80%);
 }
+
 .couple-section .couple h3{
   font-size: 40px;
   margin: 15px 0;
@@ -465,18 +466,18 @@ body{
   color: transparent; 
 }
 
-
 /* Arrive section */
 .arrive-section{
   padding: 50px 0 80px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  padding-top: 10em;
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
 }
 
 .arrive-section h2{
-  color: #00471D;
+  color: #015925;
 }
 
 .arrive-section p{
@@ -495,7 +496,7 @@ body{
   font-family: 'Great Vibes', cursive;
   font-weight: normal;
   letter-spacing: 2px;
-  color: #00471D;
+  color: #015925;
 }
 
 .arrive-section dl dd{
@@ -510,14 +511,14 @@ body{
 /* Lodging Section*/
 .lodging-section{
   padding: 50px 0 80px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
 }
 
 .lodging-section h2{
-  color: #00471D;
+  color: #015925;
   margin-top: 32px;
 }
 
@@ -551,14 +552,14 @@ body{
 /* Civil Marriage section */
 .marriage-section{
   padding: 50px 0 80px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
 }
 
 .marriage-section h2{
-  color: #00471D;
+  color: #015925;
   margin-top: 32px;
 }
 
@@ -573,10 +574,10 @@ body{
   margin: auto;
   padding-left: inherit;
   padding-right: inherit;
-  background-color: #CBFFE0;
+  background-color: #FDF4E1;
 }
 .marriage-section table, th, td {
-  border:1px solid #00471D;
+  border:1px solid #015925;
   text-align: center;
   color: #455a64;
   text-decoration: none;
@@ -594,14 +595,14 @@ body{
 /* Lista section */
 .lista-section{
   padding: 50px 0 40px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
 }
 
 .lista-section h2{
-  color: #00471D;
+  color: #015925;
   margin-top: 32px;
 }
 
@@ -618,14 +619,14 @@ body{
 /* Information section */
 .information-section{
   padding: 50px 0 40px;
-  background-image: url(../img/assets/leaf_background_266278.jpg);
+  background-image: url(../img/assets/background4.jpg);
   background-repeat: repeat;
 	background-position: center;
 	background-size: auto;
 }
 
 .information-section h2{
-  color: #00471D;
+  color: #015925;
   /* margin-top: 32px; */
 }
 
@@ -674,8 +675,14 @@ body{
   width: 100%;
 }
 
-/*
+/* MEDIA QUERY */
 
+@media only screen and (min-width: 900px) {
+
+}
+
+
+/*
 .titulo{
     font-family: 'Great Vibes', cursive;
     color: #060a24;
